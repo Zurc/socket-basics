@@ -6,7 +6,7 @@ var now = moment();
 // format using unix timestamp (timezone independent)
 // console.log(now.format('X'));
 // console.log(now.format('x'));
-// console.log(now.valueOf());
+// console.log(now.valueOf());   // returns the JS timestamp (milliseconds)
 
 var timestamp = 1511960931329;
 var timestampMoment = moment.utc(timestamp);
